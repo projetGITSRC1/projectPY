@@ -1,7 +1,8 @@
 import itertools
 
-min_length = "2"
-max_length = "2"
+
+min_length = int(input("Saisissez le nombre minimum de caractères souhaité: "))
+max_length = int(input("Saisissez le nombre maximum de caractères souhaité: " ))
 
 list= '1234567890qwertyuiopasdfgjklzxcvbnm[];,./!@#$%^&*()_+:<>?'
 
