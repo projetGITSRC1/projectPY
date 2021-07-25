@@ -1,3 +1,6 @@
+from ftplib import FTP
+list_password = "wordlist.txt"
+
 def bruteforce_dico():
     username = input("saisissez le nom d'utilisateur:")
     host = input("saisissez le host:")
